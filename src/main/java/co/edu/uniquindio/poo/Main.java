@@ -121,6 +121,7 @@ public class Main {
     }
  
 // generar informe mensual
+
     private static void generarReporteMensual(ReporteMonetario reporteMonetario, Scanner scanner) {
         System.out.print("Ingrese el mes (1-12): ");
         int mes = Integer.parseInt(scanner.nextLine());
